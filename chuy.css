@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Calibri';
+}
+body{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #c9cdcf;
+    background-attachment: fixed;
+    background: url(download2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+    
+}
+
+
+.container{
+    width: 420px;
+    border: 2px solid rgba(255,255,255,.2);
+    outline: none;
+    padding:  10px 10px;
+    border-radius: 30px;
+    color: white;
+    height: 45vh;
+    backdrop-filter: blur(10px);
+ 
+}
+.container  h1{
+    text-align: center;
+    font-size: 35px;
+
+}
+.container .input-box{
+    width: 100%;
+    margin: 20px 0 ;
+    height: 50px;
+    position: relative;
+}
+.input-box input{
+    
+    padding: 10px 168px 15px 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 40px;
+    font-size: 20px;
+
+
+}
+.input-box input:hover{
+    background-color: white;
+    color: black;
+}
+.input-box input::placeholder{
+    color: black;
+    font-size: 15px;
+}
+.input-box img{
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+
+.remember_password {
+    margin: 20px 0 ;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.container .login{
+    position: fixed;
+   border: 2px solid rgba(255,255,255,.2);
+   border-radius: 30px;
+   font-size: 20px;
+   text-decoration: none;
+   color: black;
+   padding: 10px 168px;
+   transition: 0.3s;
+   margin: 70px 0;
+    align-items: center;
+}
+.container .login:hover{
+    background-color: white;
+    color: black;
+}
+
+.social_icons{
+  position: relative;
+   margin: 10px 10px 10px 30px;
+    height: 250px;
+    width: 10%;
+    
+   }
+
